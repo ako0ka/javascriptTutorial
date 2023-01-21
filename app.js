@@ -1,4 +1,4 @@
 const variable = ცვლადი;
 
-axali 
+axali  
 
