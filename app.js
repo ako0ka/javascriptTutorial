@@ -1,0 +1,4 @@
+const variable = ცვლადი;
+
+axali 
+
