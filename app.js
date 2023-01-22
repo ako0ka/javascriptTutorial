@@ -1,28 +1,35 @@
-const variable = "ცვლადი";
 
-let variableTwo;
+const chveulebriviCvladi = "ragaca";
 
-
-console.log(variableTwo);
-
-function calculateNumbers(num1, num2) {
-    const calculatedValue = num1 + num2;
-console.log(calculatedValue);
-}
-calculateNumbers(11, 31)
-
-
-// calculateNumbers("hello world", 15)
-
-const addNumbers = function(num1, num2) {
-    console.log(num1 + num2);
+function someFunction() {
+    console.log("prost");
 }
 
-addNumbers(10, 15)
 
-const multiplyNumbers = (num1, num2) => {
-    const calculatedValue = num1 + num2;
-    console.log(calculatedValue)
+const akoJokhadze = {
+ id:1,
+name:"ako",
+lastName: "jokhadze",
+age:36,
+education: false,
+friends:["cebe", "chiko", "cxvedo"],
+greeting: function () {
+    console.log("Hello There");
+},
 };
+const personTwo = {
+    id:2,
+   name:"nika",
+   lastName: "chachanidze",
+   age:36,
+   education: false,
+   friends:["megobari1", "megobari2", "megobari3"],
+   greeting: function() {
+       console.log("im not friendly");
+   }
+   };
 
-multiplyNumbers(10, 12)
+
+console.log(akoJokhadze.age);
+console.log(akoJokhadze.education);
+console.log(akoJokhadze.friends[1]);
