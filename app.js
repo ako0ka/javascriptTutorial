@@ -1,35 +1,18 @@
 
-const chveulebriviCvladi = "ragaca";
 
-function someFunction() {
-    console.log("prost");
+const cvladi = 10
+const cvladi2 = 12
+
+const arrowFunc = (num1, num2) => {
+ return num1 + num2
 }
 
+const arrowOneLine = (num1, num2) => num1 + num2
 
-const akoJokhadze = {
- id:1,
-name:"ako",
-lastName: "jokhadze",
-age:36,
-education: false,
-friends:["cebe", "chiko", "cxvedo"],
-greeting: function () {
-    console.log("Hello There");
-},
-};
-const personTwo = {
-    id:2,
-   name:"nika",
-   lastName: "chachanidze",
-   age:36,
-   education: false,
-   friends:["megobari1", "megobari2", "megobari3"],
-   greeting: function() {
-       console.log("im not friendly");
-   }
-   };
+const result1 = arrowFunc(cvladi, cvladi2)
 
+const result2 = arrowOneLine (cvladi, cvladi2)
 
-console.log(akoJokhadze.age);
-console.log(akoJokhadze.education);
-console.log(akoJokhadze.friends[1]);
+console.log(result1);
+
+console.log(result2);
