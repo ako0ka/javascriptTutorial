@@ -1,18 +1,20 @@
 
 
-const cvladi = 10
-const cvladi2 = 12
+const array = ["string",
+ 10,
+  true,
+   undefined,
+    null,
+     ["string", 10, true, undefined, null],
+     {name: "Daviti", age: 24, education: true},]
 
-const arrowFunc = (num1, num2) => {
- return num1 + num2
-}
+     
 
-const arrowOneLine = (num1, num2) => num1 + num2
+     let firtsName = array[array.length - 1].age = 25;
 
-const result1 = arrowFunc(cvladi, cvladi2)
+     array[array.length - 1].age = 25
 
-const result2 = arrowOneLine (cvladi, cvladi2)
 
-console.log(result1);
-
-console.log(result2);
+let age = array[array.length - 1].age
+let boolean = (array[array[2]] = false)
+console.log(">>>>", age, ">>>>", boolean);
