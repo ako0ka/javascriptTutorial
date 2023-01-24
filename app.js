@@ -1,20 +1,15 @@
+/* < > == === >= <= !== */
+
+const num1 = 5
+const num2 = 5
+const result = num1 + num2
 
 
-const array = ["string",
- 10,
-  true,
-   undefined,
-    null,
-     ["string", 10, true, undefined, null],
-     {name: "Daviti", age: 24, education: true},]
 
-     
-
-     let firtsName = array[array.length - 1].age = 25;
-
-     array[array.length - 1].age = 25
-
-
-let age = array[array.length - 1].age
-let boolean = (array[array[2]] = false)
-console.log(">>>>", age, ">>>>", boolean);
+if (num1 !== num2) {
+console.log("not equal");
+} else if(num1 >= num2) {
+    console.log("result")
+}else if (result <= 10) {
+    console.log("some else statment");
+}
